@@ -14,7 +14,7 @@ This tool will crop and resize PNG source images to generate images for modern i
 ## Install
 
 ```bash
-$ npm install -g icon-splash-generator
+$ npm install icon-splash-generator
 ```
 
 #### CommonJS Example
