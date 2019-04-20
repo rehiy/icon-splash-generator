@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "outDir": "./dist",
+        "pretty": true,
+        "strict": true,
+        "target": "es2017",
+        "lib": [
+            "es2017"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": []
+}

@@ -1,0 +1,45 @@
+{
+    "name": "icon-splash-generator",
+    "version": "1.0.0",
+    "author": {
+        "name": "Anrip Wong",
+        "email": "mail@anrip.com",
+        "url": "http://www.anrip.com"
+    },
+    "description": "This tool will crop and resize PNG source images into appropriate sizes for modern iOS and Android devices.",
+    "license": "Apache-2.0",
+    "keywords": [
+        "ionic",
+        "cordova",
+        "phonegap",
+        "resources",
+        "mobile",
+        "native",
+        "icon",
+        "splash screen"
+    ],
+    "files": [
+        "dist",
+        "package.json"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "lint": "tslint --project tsconfig.json"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "@ionic/utils-fs": "^1.0.0",
+        "debug": "^4.1.1",
+        "sharp": "^0.21.2",
+        "tslib": "^1.9.3"
+    },
+    "devDependencies": {
+        "@types/debug": "0.0.31",
+        "@types/fs-extra": "^5.0.4",
+        "@types/sharp": "^0.21.0",
+        "tslint": "^5.12.1",
+        "typescript": "^3.2.2"
+    }
+}
