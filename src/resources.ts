@@ -76,45 +76,47 @@ export const ResourcesConfig: ResourcesConfigTyping = {
     [Platform.IOS]: {
         [ResourceType.ICON]: [
             // App Store Icon
-            { name: 'icon-1024.png', width: 1024, height: 1024 },
+            { name: 'Icon-1024.png', width: 1024, height: 1024 },
             // iOS 8.0+
             // iPhone 6 Plus
-            { name: 'icon-60@3x.png', width: 180, height: 180 },
+            { name: 'Icon-60@3x.png', width: 180, height: 180 },
             // iOS 7.0+
             // iPhone / iPod Touch
-            { name: 'icon-60.png', width: 60, height: 60 },
-            { name: 'icon-60@2x.png', width: 120, height: 120 },
+            { name: 'Icon-60.png', width: 60, height: 60 },
+            { name: 'Icon-60@2x.png', width: 120, height: 120 },
             // iPad
-            { name: 'icon-76.png', width: 76, height: 76 },
-            { name: 'icon-76@2x.png', width: 152, height: 152 },
+            { name: 'Icon-76.png', width: 76, height: 76 },
+            { name: 'Icon-76@2x.png', width: 152, height: 152 },
             // Spotlight Icon
-            { name: 'icon-40.png', width: 40, height: 40 },
-            { name: 'icon-40@2x.png', width: 80, height: 80 },
+            { name: 'Icon-40.png', width: 40, height: 40 },
+            { name: 'Icon-40@2x.png', width: 80, height: 80 },
+            { name: 'Icon-40@3x.png', width: 120, height: 120 },
             // iOS 6.1
             // iPhone / iPod Touch
             { name: 'icon.png', width: 57, height: 57 },
             { name: 'icon@2x.png', width: 114, height: 114 },
             // iPad
-            { name: 'icon-72.png', width: 72, height: 72 },
-            { name: 'icon-72@2x.png', width: 144, height: 144 },
+            { name: 'Icon-72.png', width: 72, height: 72 },
+            { name: 'Icon-72@2x.png', width: 144, height: 144 },
             // iPad Pro
-            { name: 'icon-167.png', width: 167, height: 167 },
+            { name: 'Icon-167.png', width: 167, height: 167 },
             // iPhone Spotlight and Settings Icon
-            { name: 'icon-small.png', width: 29, height: 29 },
-            { name: 'icon-small@2x.png', width: 58, height: 58 },
-            { name: 'icon-small@3x.png', width: 87, height: 87 },
+            { name: 'Icon-small.png', width: 29, height: 29 },
+            { name: 'Icon-small@2x.png', width: 58, height: 58 },
+            { name: 'Icon-small@3x.png', width: 87, height: 87 },
             // iPad Spotlight and Settings Icon
-            { name: 'icon-50.png', width: 50, height: 50 },
-            { name: 'icon-50@2x.png', width: 100, height: 100 },
+            { name: 'Icon-50.png', width: 50, height: 50 },
+            { name: 'Icon-50@2x.png', width: 100, height: 100 },
             // iPad Pro
-            { name: 'icon-83.5@2x.png', width: 167, height: 167 },
+            { name: 'Icon-83.5@2x.png', width: 167, height: 167 },
             // we also need 20x20 for iPad Notification 20pt@1
-            { name: 'icon-20.png', width: 20, height: 20 },
+            { name: 'Icon-20.png', width: 20, height: 20 },
             // Apple-Watch
-            { name: 'icon-24@2.png', width: 48, height: 48 },
-            { name: 'icon-27.5@2.png', width: 55, height: 55 },
-            { name: 'icon-86@2.png', width: 172, height: 172 },
-            { name: 'icon-98@2.png', width: 196, height: 196 }
+            { name: 'Icon-24@2x.png', width: 48, height: 48 },
+            { name: 'Icon-27.5@2x.png', width: 55, height: 55 },
+            { name: 'Icon-44@3x.png', width: 88, height: 88 },
+            { name: 'Icon-86@2x.png', width: 172, height: 172 },
+            { name: 'Icon-98@2x.png', width: 196, height: 196 }
         ],
         [ResourceType.SPLASH]: [
             { name: 'Default-568h@2x~iphone.png', width: 640, height: 1136, orientation: Orientation.PORTRAIT },
