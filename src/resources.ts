@@ -114,7 +114,7 @@ export const ResourcesConfig: ResourcesConfigTyping = {
             // Apple-Watch
             { name: 'Icon-24@2x.png', width: 48, height: 48 },
             { name: 'Icon-27.5@2x.png', width: 55, height: 55 },
-            { name: 'Icon-44@3x.png', width: 88, height: 88 },
+            { name: 'Icon-44@2x.png', width: 88, height: 88 },
             { name: 'Icon-86@2x.png', width: 172, height: 172 },
             { name: 'Icon-98@2x.png', width: 196, height: 196 }
         ],
