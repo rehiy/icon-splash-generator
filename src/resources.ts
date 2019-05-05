@@ -93,8 +93,8 @@ export const ResourcesConfig: ResourcesConfigTyping = {
             { name: 'Icon-40@3x.png', width: 120, height: 120 },
             // iOS 6.1
             // iPhone / iPod Touch
-            { name: 'icon.png', width: 57, height: 57 },
-            { name: 'icon@2x.png', width: 114, height: 114 },
+            { name: 'Icon.png', width: 57, height: 57 },
+            { name: 'Icon@2x.png', width: 114, height: 114 },
             // iPad
             { name: 'Icon-72.png', width: 72, height: 72 },
             { name: 'Icon-72@2x.png', width: 144, height: 144 },
